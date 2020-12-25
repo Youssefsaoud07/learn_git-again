@@ -1,0 +1,44 @@
+PROGRAM ALFORITHM CHECKPOINT;
+VAR
+i:integer;
+str:string;
+strv:string;
+begin
+    string :='aeiouy';
+    write (’type a sentence that ends with <.>  ’);
+    readln (a);
+      IF (str[str.length]='.') then
+    
+       for i from 0 to str.length-1 then
+          IF str[i]=' ' then
+		    n :=n+1;
+			ENDIF;
+		  FOR j form 0 to 5 do
+		   begin
+		    if str[i]=strv[j] then
+			 nv:=nv+1.
+			 
+			endif;
+	      END FOR;
+		   
+		END FOR
+		 if n>0 then
+			write 'your sentence has ',n,'vowels'
+			Else
+			 write 'your sentence has no vowels' ;
+			
+		   write 'your sentence contains',str.length;
+   ELSE
+     write 'your sentence doesn't end with <.>
+   end ELSE
+End;
+		
+		   
+			
+		
+			
+
+
+
+
+
